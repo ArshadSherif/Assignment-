@@ -16,7 +16,7 @@ int  bill_amount, amount_given, quot, rem;
    quot =  amount_given/bill_amount;
 
 
-   rem = amount_given/bill_amount;
+   rem = amount_given%bill_amount;
 
    printf("Quotient is: %d\n", quot);
    printf("Remainder is: %d", rem);
