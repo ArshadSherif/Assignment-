@@ -13,10 +13,10 @@ int  bill_amount, amount_given, quot, rem;
    scanf("%d", &amount_given);
 
   
-   quot =  bill_amount / amount_given;
+   quot =  amount_given/bill_amount;
 
 
-   rem =  bill_amount% amount_given;
+   rem = amount_given/bill_amount;
 
    printf("Quotient is: %d\n", quot);
    printf("Remainder is: %d", rem);
